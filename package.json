@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-userstyles",
+  "description": "A boilerplate for creating userstyles easily",
+  "author": "Thiago Braga <thi@thiagobraga.dev>",
+  "version": "0.2.0",
+  "private": true,
+  "license": "MIT",
+  "userstyle": {
+    "name": "Boilerplate Userstyles",
+    "namespace": "https://github.com/thiagobraga",
+    "homepageURL": "https://github.com/thiagobraga/boilerplate-userstyles",
+    "supportURL": "https://github.com/thiagobraga/boilerplate-userstyles/issues",
+    "updateBaseURL": "https://github.com/thiagobraga/boilerplate-userstyles/raw/master/",
+    "match": {
+      "domain": "domain.com"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.7",
+    "chokidar-cli": "3.0.0",
+    "postcss": "8.3.11",
+    "postcss-cli": "9.0.2",
+    "stylus": "0.55.0",
+    "userstyle-gen": "0.1.2"
+  },
+  "resolutions": {
+    "ansi-regex": "2.1.1",
+    "yargs-parser": ">=13.1.2",
+    "nanoid": ">=3.1.31"
+  }
+}

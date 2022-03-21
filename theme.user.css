@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name          Boilerplate Userstyles
+@description   A boilerplate for creating userstyles easily
+@version       0.2.0
+@author        Thiago Braga <thi@thiagobraga.dev>
+@license       MIT
+@namespace     https://github.com/thiagobraga
+@homepageURL   https://github.com/thiagobraga/boilerplate-userstyles
+@supportURL    https://github.com/thiagobraga/boilerplate-userstyles/issues
+@updateURL     https://github.com/thiagobraga/boilerplate-userstyles/raw/master/theme.user.css
+==/UserStyle== */
+@-moz-document
+  domain('domain.com')
+{
+  a:hover {
+    text-decoration: none;
+  }
+  header {
+    background-color: #404552 !important;
+  }
+  .example {
+    background-color: #404552;
+  }
+}
